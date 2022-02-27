@@ -5,7 +5,7 @@ Deno wrapper over https://github.com/dirs-dev/dirs-rs
 ```ts
 import * as dirs from "https://github.com/sigmaSd/ddirs2/raw/master/ddirs.ts"
 
-cosole.log(dirs.config_dir())
+console.log(dirs.config_dir())
 ```
 
 # Devolpement
