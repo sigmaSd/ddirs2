@@ -5,7 +5,10 @@ import {
 
 const ddirs: Crate = {
   name: "ddirs",
-  url: "https://github.com/sigmaSd/ddirs2",
+  repo: {
+    url: "https://github.com/sigmaSd/ddirs2",
+    relativePath: "./ddirsRust",
+  },
   path: "./ddirsRust",
 };
 const bolt = new Bolt([ddirs]);
