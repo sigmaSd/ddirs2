@@ -1,7 +1,7 @@
 async function genTs() {
   function gen(names: string[]): string {
     const prelude = `
-import {Bolt, Crate} from "https://raw.githubusercontent.com/sigmaSd/Bolt/master/src/bolt.ts"
+import {Bolt, Crate} from "https://deno.land/x/bolt@0.1.5/src/bolt.ts"
 
 const ddirs: Crate = {
   name: "ddirs",
