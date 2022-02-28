@@ -5,7 +5,7 @@ Deno wrapper over https://github.com/dirs-dev/dirs-rs
 # Usage
 
 ```ts
-import * as dirs from "https://deno.land/x/ddirs@0.1.0/ddirs.ts";
+import * as dirs from "https://deno.land/x/ddirs@0.1.2/ddirs.ts";
 
 console.log(dirs.config_dir());
 ```
